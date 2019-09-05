@@ -1,0 +1,6 @@
+package Q14;
+
+public class UnderGraduate extends Student{
+	private String circles;
+	
+}

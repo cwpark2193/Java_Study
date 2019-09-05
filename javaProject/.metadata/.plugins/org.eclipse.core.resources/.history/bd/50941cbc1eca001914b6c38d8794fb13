@@ -1,0 +1,16 @@
+package chapter9.SingleTon;
+
+public class SingleTon {
+	private SingleTon() {}
+	private static SingleTon singleton = new SingleTon();
+	singleton = new SingleTon();
+	static {
+		singleton = new SingleTon();
+	}
+	public static SingleTon getSingleTon() {
+		if(singleton==null) {
+			singleton=new SingleTon();
+		}
+		return singleton;
+	}
+}

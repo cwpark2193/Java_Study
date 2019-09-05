@@ -1,0 +1,18 @@
+package Q22.game.test;
+
+public class DieTest {
+
+	public static void main(String[] args) {
+		Die userDie = new Die();
+		Die compDie = new Die();
+		
+		while(true) {
+			userdie.roll();
+			int userValue =userDie.getValue();
+			
+			
+		}
+		
+	}
+
+}

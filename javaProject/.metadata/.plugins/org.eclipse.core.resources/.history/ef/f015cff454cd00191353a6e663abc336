@@ -1,0 +1,12 @@
+package Q17;
+
+public class Circle implements Movable {
+
+	@Override
+	public void move(int dx, int dy) {
+		dx=dx+(int)(Math.random()*(100-1+1)+1);
+		dy=dy+(int)(Math.random()*(100-1+1)+1);
+		System.out.println("원의 기준점이 "+dx+","+dy+"로 변경되었습니다.");
+	}
+
+}

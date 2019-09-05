@@ -1,0 +1,20 @@
+package Q14;
+
+public class UnderGraduate extends Student{
+	private String circles;
+	public UnderGraduate() {
+		this(null,0,null,0,0, null);
+	}
+	public UnderGraduate(String name, int studentnumber, String major, int grade, int creditearned, String circles) {
+		super(name, studentnumber, major, grade, creditearned);
+		this.circles = circles;
+	}
+	public String getCircles() {
+		return circles;
+	}
+	public void setCircles(String circles) {
+		this.circles = circles;
+	}
+	
+	
+}

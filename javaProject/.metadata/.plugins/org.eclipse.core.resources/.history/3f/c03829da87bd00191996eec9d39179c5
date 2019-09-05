@@ -1,0 +1,26 @@
+package chapter3;
+
+import java.util.Scanner;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//1. 2개의 수 입력
+		Scanner input = new Scanner(System.in);
+		System.out.print("전체 갯수로 정할 숫자 입력 : ");
+		long n=input.nextInt();
+		System.out.print("선택할 숫자 입력 : ");
+		long i=input.nextInt();	
+		long fact1=1,fact2=1,sum=1;
+		for(int j=1;j<=i;j++) {
+			fact1=fact1*(n-j+1);
+			fact2=fact2*j;
+		}
+		System.out.println(fact1+" "+fact2);
+		sum=sum*(fact2/fact1);
+		
+		System.out.println(sum);
+	}
+
+}

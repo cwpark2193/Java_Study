@@ -1,0 +1,36 @@
+package Person;
+
+import chapter9.rectangle.Comparable;
+
+public class Person implements Comparable {
+	public String name;
+	public float height;
+	public Person() {
+		super();
+	}
+	public Person(String name, float height) {
+		this.name = name;
+		this.height = height;
+	}
+	public String getName() {
+		return name;
+	}
+	public void setName(String name) {
+		this.name = name;
+	}
+	public float getHeight() {
+		return height;
+	}
+	public void setHeight(float height) {
+		this.height = height;
+	}	
+	@Override
+	public String toString() {
+		return "Person [name=" + name + ", height=" + height + "]";
+	}
+	@Override
+	public int compareTo(Object other) {
+		return 0;
+	}
+
+}

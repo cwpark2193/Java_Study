@@ -1,0 +1,7 @@
+package 객체지향14;
+
+class NotFoundExecption extends Exception {
+	public NotFoundExecption() {
+		super("사용자 정의 예외");
+	}
+}

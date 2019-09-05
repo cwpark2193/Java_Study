@@ -1,0 +1,10 @@
+package Q14;
+
+public class Student {
+	private String name;
+	private int studentnumber;
+	private String major;
+	private int grade;
+	private int creditearned;
+	
+}

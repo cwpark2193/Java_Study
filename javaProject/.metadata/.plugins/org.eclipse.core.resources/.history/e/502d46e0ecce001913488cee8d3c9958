@@ -1,0 +1,9 @@
+package Q14;
+
+public class PairTest {
+
+	public static void main(String[] args) {
+		MyPair<String> fruit = new MyPair<String>("사과“, ”포도“);
+	}
+
+}

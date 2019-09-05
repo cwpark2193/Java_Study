@@ -1,0 +1,8 @@
+package Q12;
+
+public class Food {
+	private double calories;
+	private double price;
+	private double weight;
+	
+}

@@ -1,0 +1,5 @@
+package CompareToTest;
+
+public interface comparable extends Comparable<T> {
+
+}

@@ -1,0 +1,17 @@
+package Noname;
+
+public class A implements B {
+
+	@Override
+	public void turnOn() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public void turnOff() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,4 @@
+System.out.print("전체 수 입력 : ");
+		long number1=input.nextLong();
+		System.out.print("선택 수 입력 : ");
+		long number2=input.nextLong();

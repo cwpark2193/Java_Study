@@ -1,0 +1,5 @@
+public class Stack{
+	private int[] stack;
+	public void push(int data) {}
+	public int pop() {}
+}

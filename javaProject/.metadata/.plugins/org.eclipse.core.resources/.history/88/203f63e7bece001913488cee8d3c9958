@@ -1,0 +1,11 @@
+package chapter15.Box;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		Box b1 = new Box("°í±æµ¿");
+		String strName = (String)b1.getData();
+		System.out.println(strName);
+	}
+
+}

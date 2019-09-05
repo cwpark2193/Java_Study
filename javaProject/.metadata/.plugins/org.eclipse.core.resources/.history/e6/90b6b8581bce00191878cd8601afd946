@@ -1,0 +1,8 @@
+package °´Ã¼ÁöÇâ14;
+
+public class Q2{
+    public static void main(String [] args) {
+    	Object o = new Object(); 
+    	Integer i = (Integer)o;
+    }
+}

@@ -1,0 +1,11 @@
+package Q8;
+
+public class TestCylinder {
+
+	public static void main(String[] args) {
+		Cylinder obj1 = new Cylinder();
+		obj1.getRadius();
+
+	}
+
+}

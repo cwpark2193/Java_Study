@@ -1,0 +1,13 @@
+package Q21;
+
+public class Rectangle extends Shape{
+	private int length;
+	private int width;
+	public Rectangle(String color) {
+		super(color);
+	}
+	
+
+
+
+}

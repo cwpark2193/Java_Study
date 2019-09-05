@@ -1,0 +1,30 @@
+package chapter15.Box;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		//1.
+		Box<String,Integer> b1 = new Box<String,Integer>("고길동",30);
+		String str =b1.getData();
+		Integer num = b1.getData2();
+		System.out.println(str+" "+num);
+	
+		String[] str1 = {"홍길동","고길동","구길동"};
+		String strLastArray = (String)Box.getLast(str1);
+		System.out.println(strLastArray);
+		
+		MyData[] md = {new MyData("강감찬"),new MyData("을지문덕"),new MyData("이순신")};
+		MyData mdLast = (MyData)Box.getLast(md);
+		System.out.println(mdLast.str);
+		
+		//2.
+//		Box<Integer> b2 = new Box<Integer>(new Integer(50));
+//		int number=b2.getData();
+//		System.out.println(number);
+//		
+//		Box<MyData> b3 = new Box<MyData>(new MyData("싸다김밥"));
+//		MyData md = b3.getData();
+//		System.out.println(md.str);
+	}
+
+}

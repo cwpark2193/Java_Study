@@ -1,0 +1,31 @@
+package Q10;
+
+public class Triangle extends Shape{
+	private int width2;
+	private int width3;
+	public Triangle() {
+		super();
+	}
+	public Triangle(double x, double y, int width, int height) {
+		super(x, y, width, height);
+		this.width2 = width2;
+		this.width3 = width3;	
+	}
+	@Override
+	public int getPeremeter() {
+		if()
+		return super.getWidth()*3;
+	}
+	@Override
+	public double getArea() {
+		return (super.getWidth()*super.getHeight())/2.0;
+	}
+	@Override
+	public String toString() {
+		return "삼각형의 중앙의 좌표는 x좌표 : "+super.getX()+"y좌표 : "+super.getY()+"이며 한 변의 길이는 "+super.getWidth()+"이고 높이는 "+super.getHeight()+"이다.";
+	}
+	
+	
+	
+	
+}

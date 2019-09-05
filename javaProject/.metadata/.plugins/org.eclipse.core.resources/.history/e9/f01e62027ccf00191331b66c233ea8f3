@@ -1,0 +1,11 @@
+package chpater14.example;
+
+public class ExampleTest {
+
+	public static void main(String[] args) {
+		int[] list = null;
+		
+		list[0] = 0;
+	}
+
+}

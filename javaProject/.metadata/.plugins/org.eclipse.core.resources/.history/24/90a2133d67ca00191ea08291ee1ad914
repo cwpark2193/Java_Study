@@ -1,0 +1,16 @@
+package Q12;
+
+public class Melon extends Food{
+	private String place;
+	
+	public Melon() {
+		super(0.0, 0.0, 0.0);
+		this.place=null;
+	}
+
+	public Melon(double calories, double price, double weight, String place) {
+		super(calories, price, weight);
+		this.place = place;
+	}
+	
+}

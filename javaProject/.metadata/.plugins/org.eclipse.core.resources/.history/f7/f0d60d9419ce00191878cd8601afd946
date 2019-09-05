@@ -1,0 +1,20 @@
+package 객체지향14;
+
+public class Q2 {
+	public static final int SIZE = 15;
+	public static void main(String[] args) {
+		int [] arrays = new int[SIZE];
+		int result=0;
+		try {   
+			result = 4/0;
+		}catch(ArithmeticException a) {
+			System.out.println("오류가 발생되었지만 순서가 이상하다?");
+		}
+		catch (Exception a) {
+			System.out.println("오류는 발생되었습니다. 그러나 해결은 당신 재량입니다.");; // 콘솔에 오류 메시지를 출력한다. 
+		}finally {
+			System.out.println("과연 어떻게?");
+		}
+	}
+
+}

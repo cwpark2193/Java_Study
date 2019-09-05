@@ -1,0 +1,10 @@
+package Q5;
+
+public class MountainBike extends Bike{
+	public void MountainBike(int g)
+	{
+		super();
+		gear=g;
+	}
+	public int seatHeight;
+}

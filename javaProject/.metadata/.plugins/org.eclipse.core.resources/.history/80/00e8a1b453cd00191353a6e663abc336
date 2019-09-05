@@ -1,0 +1,25 @@
+package Q17;
+
+public class Rectangle implements Movable {
+
+	@Override
+	public void move(int dx, int dy) {
+		dx=dx*(-1);
+		dy=dy*(1);
+	}
+
+	public Rectangle() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
+	@Override
+	public String toString() {
+		return "Rectangle [toString()=" + super.toString() + "]";
+	}
+	public void getPoint(int dx,int dy) {
+		System.out.println("dx= "+dx+" dy = "+dy);
+		return ;
+	}
+
+}

@@ -1,0 +1,10 @@
+package Q11;
+
+public class BookTest {
+
+	public static void main(String[] args) {
+		Magazine magazineNews = new Magazine("Micro Software",292,"¸¶¼ÒÆÀ","2019.7.08");
+		System.out.println(magazineNews);
+		}
+
+}

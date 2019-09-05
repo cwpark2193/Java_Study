@@ -1,0 +1,5 @@
+package Q14;
+
+public class Graduate extends Student{
+	//조교 유형과 장학금비율 추가
+}

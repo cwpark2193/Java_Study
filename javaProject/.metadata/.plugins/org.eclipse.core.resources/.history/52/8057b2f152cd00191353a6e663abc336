@@ -1,0 +1,13 @@
+package Q17;
+
+public class MovableTest {
+
+	public static void main(String[] args) {
+		Movable[] mseries = {new Circle(),new Rectangle(),new Triangle()};
+		for(int i=0;i<mseries.length;i++) {
+			System.out.println(mseries[i].move(5, 10));
+			System.out.println(mseries[i]);
+		}
+	}
+
+}

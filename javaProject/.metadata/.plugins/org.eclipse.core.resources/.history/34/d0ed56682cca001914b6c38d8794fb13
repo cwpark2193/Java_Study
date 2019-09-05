@@ -1,0 +1,14 @@
+package °´Ã¼ÁöÇâ7;
+
+public class GraduateStudent extends Student {
+       public String lab;
+
+	public String getLab() {
+		return lab;
+	}
+
+	public void setLab(String lab) {
+		this.lab = lab;
+	}
+       
+}

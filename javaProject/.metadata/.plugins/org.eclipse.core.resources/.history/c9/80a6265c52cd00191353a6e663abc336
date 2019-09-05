@@ -1,0 +1,11 @@
+package Q17;
+
+public class Rectangle implements Movable {
+
+	@Override
+	public void move(int dx, int dy) {
+		dx=dx*(-1);
+		dy=dy*(1);
+	}
+
+}

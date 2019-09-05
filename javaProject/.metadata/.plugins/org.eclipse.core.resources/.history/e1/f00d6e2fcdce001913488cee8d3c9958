@@ -1,0 +1,21 @@
+package chapter15.Box;
+
+public class BoxTest {
+
+	public static void main(String[] args) {
+		//1.
+		Box<String> b1 = new Box<String>("°í±æµ¿");
+		String str =b1.getData();
+		System.out.println(str);
+	
+		//2.
+		Box<Integer> b2 = new Box<Integer>(new Integer(50));
+		int number=b2.getData();
+		System.out.println(number);
+		
+		Box<MyData> b3 = new Box<MyData>(new MyData("½Î´Ù±è¹ä"));
+		MyData md = b3.getData();
+		System.out.println(md.str);
+	}
+
+}

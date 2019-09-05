@@ -1,0 +1,13 @@
+package Person;
+
+import chapter9.rectangle.Comparable;
+
+public class Person implements Comparable {
+
+	@Override
+	public int compareTo(Object other) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

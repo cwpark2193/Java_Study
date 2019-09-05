@@ -1,0 +1,12 @@
+package Q22.game;
+
+public class DieTest {
+
+	public static void main(String[] args) {
+		Die humanValue = new Die();
+		Die comValue = new Die();
+		humanValue.roll();
+		comValue.roll();
+	}
+
+}

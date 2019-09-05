@@ -1,0 +1,5 @@
+package °´Ã¼ÁöÇâ7;
+	class Student2 {
+	       private int number;
+	       public String name;
+	}

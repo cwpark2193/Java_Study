@@ -1,0 +1,9 @@
+package chapter14.MyException;
+
+public class MyException {
+
+	public static void main(String[] args) {
+
+	}
+
+}

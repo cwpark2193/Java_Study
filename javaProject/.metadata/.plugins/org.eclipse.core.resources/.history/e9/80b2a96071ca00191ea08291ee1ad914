@@ -1,0 +1,18 @@
+package Q13;
+
+public class PhoneTest {
+
+	public static void main(String[] args) {
+		SmartPhone mysmartphone = new SmartPhone();
+		System.out.println(mysmartphone);
+		mysmartphone.setManufacturer("LG");
+		mysmartphone.setPrice(760_000);
+		mysmartphone.setMobileservice("LTE");
+		mysmartphone.setMobileOperatingSystem("안드로이드");
+		mysmartphone.setMobileVirsion(9.0);
+		mysmartphone.setHddsize(32);
+		mysmartphone.setCameraonoff(true);
+		mysmartphone.setBluetooth(true);
+	}
+
+}

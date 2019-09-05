@@ -1,0 +1,12 @@
+package CompareToTest;
+
+public class ComparableTest {
+
+	public static void main(String[] args) {
+		Rectangle rec1 = new Rectangle(40,50);
+		Rectangle rec2 = new Rectangle(60,30);
+		System.out.println(rec1);
+		System.out.println(rec2);
+	}
+
+}

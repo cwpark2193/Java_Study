@@ -1,0 +1,17 @@
+package °´Ã¼ÁöÇâ14;
+
+public class Q15Test {
+	public static final int SIZE = 10;
+	public static void searchArray(int number) throws NotFoundExecption {
+		int[]	iArray = new int [SIZE];
+		for(int i=0;i<iArray.length;i++) {
+			iArray[i]=(int)(Math.random()*10+1);
+		}
+	}
+	public static void main(String[] args) {
+		try {
+			searchArray(5);
+			searchArray(15);
+		} catch (NotFoundExecption ex) {	ex.printStackTrace();	}
+	}
+}

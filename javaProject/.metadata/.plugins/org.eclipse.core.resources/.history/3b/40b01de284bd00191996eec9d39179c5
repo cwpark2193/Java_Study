@@ -1,0 +1,14 @@
+package chapter3;
+
+public class Lotto {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int fact1=fact1*(n-i+1);
+		int fact2=fact2*i;
+		for(int i=1;i<=6;i++) {
+			
+		}
+	}
+
+}

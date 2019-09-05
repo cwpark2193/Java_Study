@@ -1,0 +1,20 @@
+package chapter9.rectangle;
+
+public class RectangleTest {
+
+	public static void main(String[] args) {
+		Rectangle r1 = new Rectangle(10, 20);
+		Rectangle r2 = new Rectangle(20, 10);
+		Circle c1 = new Circle();
+		System.out.println(r1);
+		System.out.println(r2);
+		int result = r1.compareTo(r2);
+		if (result == 0)
+			System.out.println("두 객체가 같습니다");
+		else if (result == 1)
+			System.out.println("객체1이 더 큽니다.");
+		else
+			System.out.println("객체1이 더 작습니다.");
+	}
+
+}

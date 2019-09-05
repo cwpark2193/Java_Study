@@ -1,0 +1,27 @@
+package Q10;
+
+public class Triangle extends Shape{
+
+	public Triangle() {
+		super();
+	}
+	public Triangle(double x, double y, int width, int height) {
+		super(x, y, width, height);
+	}
+	@Override
+	public int getPeremeter() {
+		return super.getWidth()*3;
+	}
+	@Override
+	public double getArea() {
+		return (super.getWidth()*super.getHeight())/2.0;
+	}
+	@Override
+	public String toString() {
+		return "Triangle []";
+	}
+	
+	
+	
+	
+}

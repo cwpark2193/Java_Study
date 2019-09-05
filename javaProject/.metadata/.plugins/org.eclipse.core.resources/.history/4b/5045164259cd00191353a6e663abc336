@@ -1,0 +1,12 @@
+package Q21;
+
+public class Rectangle extends Shape{
+
+	public Rectangle(String color) {
+		super(color);
+		// TODO Auto-generated constructor stub
+	}
+
+
+
+}

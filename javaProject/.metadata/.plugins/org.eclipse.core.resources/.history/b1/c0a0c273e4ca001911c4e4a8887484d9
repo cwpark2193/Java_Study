@@ -1,0 +1,5 @@
+package NewComparable;
+
+public interface Comparable extends java.lang.Comparable<T> {
+
+}

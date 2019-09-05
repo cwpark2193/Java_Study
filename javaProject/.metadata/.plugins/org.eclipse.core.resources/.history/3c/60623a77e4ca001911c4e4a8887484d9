@@ -1,0 +1,5 @@
+package NewComparable;
+
+public class Rectangle implements Comparable<T> {
+
+}

@@ -1,0 +1,11 @@
+package Q13;
+
+public class SmartPhone extends Phone{
+	private String mobileOperatingSystem;
+	private double mobileVirsion;
+	private int hddsize;
+	private boolean cameraonoff;
+	private boolean bluetooth;
+	
+
+}

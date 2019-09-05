@@ -1,0 +1,11 @@
+package Q13;
+
+public class MyMathTest {
+
+	public static void main(String[] args) {
+		MyMath mm =new MyMath<Integer>();
+		Integer[] t = {10,20,30,40,50};
+		double average = mm.getAverage(t);
+	}
+
+}
