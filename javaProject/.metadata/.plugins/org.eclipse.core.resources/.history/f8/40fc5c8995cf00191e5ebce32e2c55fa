@@ -1,0 +1,24 @@
+package chpater14.example;
+
+import chapter14.MyException.MyException;
+import chapter9.event.MyClass;
+
+public class ExampleTest {
+
+	public static void main(String[] args) throws NegativeArraySizeException {
+		try {
+			checkNegative(1);			
+			checkNegative(-1);			
+		} catch (MyException e) {
+			System.out.println(e.getMessage());
+		}
+
+	}
+
+	private static void checkNegative(int i) throws MyException {
+		if(i<0) {
+			throw (new MyException("음수입니다."));
+		}
+		System.out.println("음수가 아닙니다.");
+	}
+}

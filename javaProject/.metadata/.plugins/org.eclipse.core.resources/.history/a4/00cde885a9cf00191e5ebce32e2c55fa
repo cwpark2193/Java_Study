@@ -1,0 +1,18 @@
+package chapter15.myclass;
+
+public class MyClassTest {
+
+	public static void main(String[] args) {
+		MyClass<MyClass> mc1 = new MyClass<MyClass>(10, "고길동");
+		MyClass<MyClass> mc2 = new MyClass<MyClass>(20, "고길동");
+		
+		int value = mc1.compareTo(mc2);
+		
+		switch(value) {
+		case 1 : System.out.println(mc1+"이 더 큽니다."); break;
+		case -1 : System.out.println(mc2+"이 더 큽니다."); break;
+		case 0 : System.out.println("같습니단."); break;
+		}
+	}
+
+}

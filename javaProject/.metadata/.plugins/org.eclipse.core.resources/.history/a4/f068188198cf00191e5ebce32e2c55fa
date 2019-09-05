@@ -8,7 +8,6 @@ public class ExampleTest {
 			boolean answer=searchArray(numArray,21);
 		} catch (NotFoundException e) {
 			System.out.println(e.getMessage());
-			e.printStackTrace();
 		}
 	}
 
@@ -19,5 +18,6 @@ public class ExampleTest {
 			}
 		}
 		throw new NotFoundException("찾을 수 없습니다.");
+		return false;
 	}
 }

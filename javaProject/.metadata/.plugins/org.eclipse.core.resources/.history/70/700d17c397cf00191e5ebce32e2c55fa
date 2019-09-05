@@ -4,12 +4,8 @@ public class ExampleTest {
 
 	public static void main(String[] args){
 		int[] numArray={10,20,30,40};
-		try {
-			boolean answer=searchArray(numArray,21);
-		} catch (NotFoundException e) {
-			System.out.println(e.getMessage());
-			e.printStackTrace();
-		}
+ 		boolean answer=searchArray(int[] numArray,21);
+		
 	}
 
 	private static boolean searchArray(int[] numArray, int number) throws NotFoundException {
@@ -18,6 +14,7 @@ public class ExampleTest {
 				return true;	
 			}
 		}
-		throw new NotFoundException("찾을 수 없습니다.");
+		throw new NotFoundException();
+		return false;
 	}
 }

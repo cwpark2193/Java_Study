@@ -1,0 +1,19 @@
+package chpater14.example;
+
+import chapter14.MyException.MyException;
+import chapter9.event.MyClass;
+
+public class ExampleTest {
+
+	public static void main(String[] args) throws NegativeArraySizeException {
+		checkNegative(1);
+
+	}
+
+	private static void checkNegative(int i) {
+		if(i<0) {
+			throw (new MyException("음수입니다."));
+		}
+			
+	}
+}

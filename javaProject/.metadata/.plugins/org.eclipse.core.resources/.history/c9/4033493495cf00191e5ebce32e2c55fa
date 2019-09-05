@@ -1,0 +1,11 @@
+package °´Ã¼ÁöÇâ14;
+
+public class MyException {
+
+	public MyException(String arg0) {
+		super(arg0);
+	}
+	
+	
+
+}

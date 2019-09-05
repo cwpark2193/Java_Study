@@ -8,7 +8,6 @@ public class ExampleTest {
 			boolean answer=searchArray(numArray,21);
 		} catch (NotFoundException e) {
 			System.out.println(e.getMessage());
-			e.printStackTrace();
 		}
 	}
 

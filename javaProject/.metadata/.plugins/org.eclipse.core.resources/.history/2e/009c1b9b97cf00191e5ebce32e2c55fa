@@ -1,0 +1,29 @@
+package chpater14.example;
+
+class NotFoundExecption extends Exception {
+	public NotFoundExecption(String message) {
+		super(message);
+	}
+}
+
+public class ExampleTest {
+
+	public static void main(String[] args){
+		int[] numArray={10,20,30,40};
+		try{
+			boolean answer=searchArray(numArray,21);
+		}catch(NotFoundExecption e){
+			System.out.println("오류입니다.");
+		}
+	}
+
+	public static boolean searchArray(int[] numArray, int number) throws NotFoundExecption {
+		for (int i = 0; i < numArray.length; i++) {
+			if (numArray[i] == number) {
+				return true;
+			}
+		}
+		throw new NotFoundExecption();
+		return false;
+	}
+}
