@@ -1,7 +1,0 @@
-package Q9;
-
-public class Customer {
-	private int customernumber;
-	private double mileage;
-	
-}

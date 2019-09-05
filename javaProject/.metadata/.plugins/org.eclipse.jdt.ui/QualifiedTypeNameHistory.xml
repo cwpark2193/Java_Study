@@ -1,9 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="Q4.Bird"/>
-<fullyQualifiedTypeName name="Q4.Dove"/>
-<fullyQualifiedTypeName name="Q14.Graduate"/>
-<fullyQualifiedTypeName name="java.awt.font.GraphicAttribute"/>
 <fullyQualifiedTypeName name="Q6.GraphicsObject"/>
 <fullyQualifiedTypeName name="Q11.Point2D"/>
 <fullyQualifiedTypeName name="java.util.Calendar"/>
@@ -19,7 +15,6 @@
 <fullyQualifiedTypeName name="Q21.Rectangle"/>
 <fullyQualifiedTypeName name="Q21.Triangle"/>
 <fullyQualifiedTypeName name="CompareToTest.ComparableTest"/>
-<fullyQualifiedTypeName name="java.lang.Comparable"/>
 <fullyQualifiedTypeName name="Q23.Rps"/>
 <fullyQualifiedTypeName name="Q23.RpsTest"/>
 <fullyQualifiedTypeName name="Q22.game.Die"/>
@@ -39,15 +34,12 @@
 <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
 <fullyQualifiedTypeName name="chapter14.FileError.FileError"/>
 <fullyQualifiedTypeName name="java.lang.reflect.Method"/>
-<fullyQualifiedTypeName name="chapter14.MyException.MyException"/>
 <fullyQualifiedTypeName name="java.lang.String"/>
 <fullyQualifiedTypeName name="chapter15.Box.MyData"/>
-<fullyQualifiedTypeName name="java.lang.Object"/>
 <fullyQualifiedTypeName name="chapter15.Box.Box"/>
 <fullyQualifiedTypeName name="java.io.File"/>
 <fullyQualifiedTypeName name="java.io.FileWriter"/>
 <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
-<fullyQualifiedTypeName name="java.lang.Exception"/>
 <fullyQualifiedTypeName name="java.lang.Math"/>
 <fullyQualifiedTypeName name="org.omg.PortableInterceptor.INACTIVE"/>
 <fullyQualifiedTypeName name="Q13.MyMath"/>
@@ -59,5 +51,13 @@
 <fullyQualifiedTypeName name="java.io.PrintWriter"/>
 <fullyQualifiedTypeName name="java.io.FilterWriter"/>
 <fullyQualifiedTypeName name="java.io.IOException"/>
+<fullyQualifiedTypeName name="chapter14.MyException.MyException"/>
 <fullyQualifiedTypeName name="java.lang.NegativeArraySizeException"/>
+<fullyQualifiedTypeName name="java.lang.Exception"/>
+<fullyQualifiedTypeName name="chpater14.example.BankAccount"/>
+<fullyQualifiedTypeName name="chapter9.event.MyClass"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.lang.Comparable"/>
+<fullyQualifiedTypeName name="chapter15.myclass.MyClass"/>
+<fullyQualifiedTypeName name="chapter15.myclass.MyArrayAlg"/>
 </qualifiedTypeNameHistroy>

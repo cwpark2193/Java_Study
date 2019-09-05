@@ -1,5 +1,0 @@
-package °´Ã¼ÁöÇâ7;
-
-public class GraduateStudent extends Student {
-       public String lab;
-}
