@@ -1,0 +1,33 @@
+package chapter15.vector;
+
+import java.util.HashSet;
+import java.util.Iterator;
+
+public class HashSetTest{
+
+	public static void main(String[] args) {
+		HashSet<String> hs = new HashSet<String>();
+		HashSet<String> hs2 = new HashSet<String>();
+		hs.add("aaaa");
+		hs.add("bbbb");
+		hs.add("cccc");
+		hs.add("dddd");
+		hs2.add("cccc");
+		hs2.add("dddd");
+		
+		IteratorPrint(hs);
+		//출력방법
+		
+		
+	}//end of main
+
+	private static void IteratorPrint(HashSet<String> hs) {
+		System.out.println("=========");
+		Iterator<String> iter = hs.iterator();
+		while(iter.hasNext()) {
+			String str=iter.next();
+			System.out.println(str);
+		};
+	}
+
+}

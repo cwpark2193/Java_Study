@@ -1,7 +1,0 @@
-package Q7;
-
-public interface Edible {
-	boolean amount;
-	final int TYPE=10;
-	public void eat() {   };	
-}

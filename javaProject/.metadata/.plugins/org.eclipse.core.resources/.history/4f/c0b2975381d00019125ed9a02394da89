@@ -1,0 +1,25 @@
+package chapter15.vector;
+
+import java.util.HashMap;
+
+public class MapTest {
+
+	public static void main(String[] args) {
+		HashMap<String, Student> hashMap = new HashMap<String, Student>();
+
+		hashMap.put("number 1", new Student(1, "홍길동"));
+		hashMap.put("number 2", new Student(2, "고길동"));
+		hashMap.put("number 3", new Student(3, "구길동"));
+
+		System.out.println(hashMap);
+		//제거
+		hashMap.remove("number 1");
+		System.out.println(hashMap);
+		//대체
+		hashMap.put("3",new Student(3, "소이정"));
+		System.out.println(hashMap);
+		//향상된 for문
+		for(:hashMap.en)
+
+	}
+}

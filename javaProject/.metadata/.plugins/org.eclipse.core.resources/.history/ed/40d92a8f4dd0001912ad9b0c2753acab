@@ -1,0 +1,20 @@
+package chapter15.arraylist;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+		
+		al.add("하");
+		al.add("히");
+		al.add("후");
+		al.add("헤");
+		al.add("호");
+		for(String a : al) {
+			System.out.println(a+" , "+al);
+		}
+	}
+
+}

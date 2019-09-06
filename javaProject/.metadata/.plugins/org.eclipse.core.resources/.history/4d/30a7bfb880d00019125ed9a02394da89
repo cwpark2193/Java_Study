@@ -1,0 +1,9 @@
+package chapter15.vector;
+
+public class MapTest {
+
+	public static void main(String[] args) {
+
+	}
+
+}

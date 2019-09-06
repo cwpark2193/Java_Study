@@ -1,5 +1,0 @@
-package SecondRectangle;
-
-public interface Comparable extends chapter9.rectangle.Comparable {
-
-}

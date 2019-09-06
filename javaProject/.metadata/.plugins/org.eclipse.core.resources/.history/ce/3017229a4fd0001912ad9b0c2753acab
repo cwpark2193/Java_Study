@@ -1,0 +1,32 @@
+package chapter15.arraylist;
+
+import java.util.ArrayList;
+
+public class ArrayListTest {
+
+	public static void main(String[] args) {
+		ArrayList<String> al = new ArrayList<String>();
+		String str1 = new String("Å©Å©");
+		//»ğÀÔ
+		al.add("ÇÏ");
+		al.add("È÷");
+		al.add("ÈÄ");
+		al.add("Çì");
+		al.add("È£");
+		al.add(str1)
+		//»ğÀÔ
+		al.add(2, "ÄÌÄÌ");
+		//Á¦°Å
+		al.remove("ÈÄ");
+		//Ãâ·Â
+		int j=0;
+		for(Object str : al) {
+			System.out.println((j++)+"="+str);
+		}
+		System.out.println("\n========");
+		for(int i=0;i<al.size();i++) {
+			System.out.println(i+"="+al.get(i));
+		}
+	}
+
+}

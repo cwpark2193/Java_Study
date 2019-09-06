@@ -1,5 +1,0 @@
-package CompareToTest;
-
-public interface comparable {
-	public int compareTo(Object other);
-}

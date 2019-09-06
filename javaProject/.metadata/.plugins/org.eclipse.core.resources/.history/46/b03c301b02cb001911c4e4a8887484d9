@@ -1,7 +1,0 @@
-package Q9;
-
-public class Desk implements Movable {
-	 Desk desk = new Desk();
-	 Movable m = desk;
-	 desk = m;
-}
