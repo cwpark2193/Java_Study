@@ -1,7 +1,0 @@
-package Noname;
-
-public interface B {
-	public abstract void turnOn();
-	public abstract void turnOff();
-
-}

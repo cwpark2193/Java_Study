@@ -17,5 +17,10 @@
 	<classpathentry kind="src" path="chapter14"/>
 	<classpathentry kind="src" path="chapter15"/>
 	<classpathentry kind="src" path="객체지향15"/>
+	<classpathentry kind="src" path="chapter16"/>
+	<classpathentry kind="src" path="객체지향16"/>
+	<classpathentry kind="src" path="chapter17"/>
+	<classpathentry kind="src" path="객체지향17"/>
+	<classpathentry kind="src" path="chapter18"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

@@ -1,6 +1,0 @@
-package Noname;
-
-public interface B2 {
-	public abstract void turnOn();
-	public abstract void turnOff();
-}

@@ -20,8 +20,8 @@ public class MyClassTest {
 				new MyClass<MyClass>(40,"가길동"),
 				new MyClass<MyClass>(50,"구길동"),
 				};
-		MyClass largeObject = MyArrayAlg.getMax(mcArray);
-		System.out.println(largeObject+"이 가장 큰 객체입니다.");
+		MyClass largeT = MyArrayAlg.getMax(mcArray);
+		System.out.println(largeT+"이 가장 큰 객체입니다.");
 		
 		String[] strArray = {new String("고길동"),new String("홍길동"),new String("구길동")};
 		String largeString = MyArrayAlg.getMax(strArray);

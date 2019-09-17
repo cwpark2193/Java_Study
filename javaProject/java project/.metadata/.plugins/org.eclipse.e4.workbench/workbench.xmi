@@ -1387,7 +1387,7 @@
   <commands xmi:id="_e-4ezr2kEem_r5O4tepy9w" elementId="org.eclipse.ui.edit.revertToSaved" commandName="Revert to Saved" description="Revert to the last saved state" category="_e-0NUr2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e-4ez72kEem_r5O4tepy9w" elementId="org.eclipse.ant.ui.toggleMarkOccurrences" commandName="Toggle Ant Mark Occurrences" description="Toggles mark occurrences in Ant editors" category="_e-00cL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e-4e0L2kEem_r5O4tepy9w" elementId="org.eclipse.ui.views.properties.NewPropertySheetCommand" commandName="Properties" category="_e-00c72kEem_r5O4tepy9w"/>
-  <commands xmi:id="_e-4e0b2kEem_r5O4tepy9w" elementId="org.eclipse.ui.navigate.addToWorkingSet" commandName="Add to Working Set" description="Adds the selected object to a working set." category="_e-0NUr2kEem_r5O4tepy9w"/>
+  <commands xmi:id="_e-4e0b2kEem_r5O4tepy9w" elementId="org.eclipse.ui.navigate.addToWorkingSet" commandName="Add to Working Set" description="Adds the selected T to a working set." category="_e-0NUr2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e-4e0r2kEem_r5O4tepy9w" elementId="org.eclipse.debug.ui.commands.RunToLine" commandName="Run to Line" description="Resume and break when execution reaches the current line" category="_e-00ab2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e-4e072kEem_r5O4tepy9w" elementId="org.eclipse.egit.ui.team.Revert" commandName="Revert Commit" category="_e-00bL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e-4e1L2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.junit.junitShortcut.debug" commandName="Debug JUnit Test" description="Debug JUnit Test" category="_e-00ab2kEem_r5O4tepy9w"/>
@@ -1821,7 +1821,7 @@
   <commands xmi:id="_e_C20L2kEem_r5O4tepy9w" elementId="org.eclipse.ui.navigate.up" commandName="Up" description="Navigate up one level" category="_e-0NXL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_C20b2kEem_r5O4tepy9w" elementId="org.eclipse.ui.window.activateEditor" commandName="Activate Editor" description="Activate the editor" category="_e-00ZL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_C20r2kEem_r5O4tepy9w" elementId="org.eclipse.m2e.core.ui.command.addPlugin" commandName="Add Maven Plugin" description="Add Maven plugin" category="_e-0NUr2kEem_r5O4tepy9w"/>
-  <commands xmi:id="_e_C2072kEem_r5O4tepy9w" elementId="org.eclipse.ui.navigate.removeFromWorkingSet" commandName="Remove From Working Set" description="Removes the selected object from a working set." category="_e-0NUr2kEem_r5O4tepy9w"/>
+  <commands xmi:id="_e_C2072kEem_r5O4tepy9w" elementId="org.eclipse.ui.navigate.removeFromWorkingSet" commandName="Remove From Working Set" description="Removes the selected T from a working set." category="_e-0NUr2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_C21L2kEem_r5O4tepy9w" elementId="sed.tabletree.expandAll" commandName="Expand All" category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_C21b2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.ui.edit.text.java.modify.method.parameters" commandName="Change Method Signature" description="Change method signature includes parameter names and parameter order" category="_e-00Zb2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_C21r2kEem_r5O4tepy9w" elementId="org.eclipse.ui.edit.text.delete.line.to.end" commandName="Delete to End of Line" description="Delete to the end of a line of text" category="_e-0NWb2kEem_r5O4tepy9w"/>
@@ -1901,7 +1901,7 @@
   <commands xmi:id="_e_EE-r2kEem_r5O4tepy9w" elementId="org.eclipse.egit.ui.team.ApplyPatch" commandName="Apply Patch" category="_e-00bL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_EE-72kEem_r5O4tepy9w" elementId="org.eclipse.ltk.ui.refactoring.commands.deleteResources" commandName="Delete Resources" description="Delete the selected resources and notify LTK participants." category="_e-00br2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_EE_L2kEem_r5O4tepy9w" elementId="org.eclipse.ui.file.print" commandName="Print" description="Print" category="_e-00Yr2kEem_r5O4tepy9w"/>
-  <commands xmi:id="_e_EE_b2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.debug.ui.commands.AllReferences" commandName="All References" description="Inspect all references to the selected object" category="_e-00ab2kEem_r5O4tepy9w"/>
+  <commands xmi:id="_e_EE_b2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.debug.ui.commands.AllReferences" commandName="All References" description="Inspect all references to the selected T" category="_e-00ab2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_EE_r2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.junit.junitShortcut.rerunLast" commandName="Rerun JUnit Test" description="Rerun JUnit Test" category="_e-00ab2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_EE_72kEem_r5O4tepy9w" elementId="org.eclipse.jdt.ui.JavaPerspective" commandName="Java" description="Show the Java perspective" category="_e-00bb2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_EFAL2kEem_r5O4tepy9w" elementId="org.eclipse.wst.sse.ui.format.active.elements" commandName="Format Active Elements" description="Format active elements" category="_e-0NUr2kEem_r5O4tepy9w"/>
@@ -1990,7 +1990,7 @@
   <commands xmi:id="_e_FTJb2kEem_r5O4tepy9w" elementId="org.eclipse.egit.ui.team.CompareWithIndex" commandName="Compare with Index" category="_e-00bL2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_FTJr2kEem_r5O4tepy9w" elementId="org.eclipse.m2e.discovery.ui" commandName="m2e Marketplace" category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_FTJ72kEem_r5O4tepy9w" elementId="org.eclipse.ui.edit.text.zoomOut" commandName="Zoom Out" description="Zoom out text, decrease default font size for text editors" category="_e-0NWb2kEem_r5O4tepy9w"/>
-  <commands xmi:id="_e_FTKL2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter.object" commandName="Introduce Parameter Object" description="Introduce a parameter object to a selected method" category="_e-00Zb2kEem_r5O4tepy9w"/>
+  <commands xmi:id="_e_FTKL2kEem_r5O4tepy9w" elementId="org.eclipse.jdt.ui.edit.text.java.introduce.parameter.T" commandName="Introduce Parameter T" description="Introduce a parameter T to a selected method" category="_e-00Zb2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_FTKb2kEem_r5O4tepy9w" elementId="org.eclipse.mylyn.tasks.ui.command.markTaskIncomplete" commandName="Mark Task Incomplete" category="_e-0NW72kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_FTKr2kEem_r5O4tepy9w" elementId="org.eclipse.ui.file.save" commandName="Save" description="Save the current contents" category="_e-00Yr2kEem_r5O4tepy9w"/>
   <commands xmi:id="_e_FTK72kEem_r5O4tepy9w" elementId="org.eclipse.gef.zoom_out" commandName="Zoom Out" description="Zoom Out" category="_e-00b72kEem_r5O4tepy9w"/>
@@ -2270,7 +2270,7 @@
   <commands xmi:id="_fbSt8L2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.switchMemoryBlock" commandName="Switch Memory Monitor" description="Switch Memory Monitor" category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_fbSt8b2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.debug.ui.memoryView.toolbar/org.eclipse.debug.ui.memoryViewPreferencesAction" commandName="Preferences..." description="&amp;Preferences..." category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_fbSt8r2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.Preferences" commandName="Java Preferences..." description="Opens preferences for Java variables" category="_e-00c72kEem_r5O4tepy9w"/>
-  <commands xmi:id="_fbSt872kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variablesViewActions.AllReferencesInView" commandName="Show References" description="Shows references to each object in the variables view as an array of objects." category="_e-00c72kEem_r5O4tepy9w"/>
+  <commands xmi:id="_fbSt872kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variablesViewActions.AllReferencesInView" commandName="Show References" description="Shows references to each T in the variables view as an array of Ts." category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_fbSt9L2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowNullEntries" commandName="Show Null Array Entries" description="Show Null Array Entries" category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_fbTVAL2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowQualified" commandName="Show Qualified Names" description="Show Qualified Names" category="_e-00c72kEem_r5O4tepy9w"/>
   <commands xmi:id="_fbTVAb2kEem_r5O4tepy9w" elementId="AUTOGEN:::org.eclipse.jdt.debug.ui.VariableViewActions/org.eclipse.jdt.debug.ui.variableViewActions.ShowStatic" commandName="Show Static Variables" description="Show Static Variables" category="_e-00c72kEem_r5O4tepy9w"/>

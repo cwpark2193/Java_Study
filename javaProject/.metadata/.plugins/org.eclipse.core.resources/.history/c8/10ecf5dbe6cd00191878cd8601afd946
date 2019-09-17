@@ -1,9 +1,0 @@
-package Q17Test;
-
-public class MovableTest {
-	public static final int NO = 3;
-	public static void main(String[] args) {
-		Movable[] moveable = {new Circle(),new Rectangle(),new Triangle()};
-	}
-
-}

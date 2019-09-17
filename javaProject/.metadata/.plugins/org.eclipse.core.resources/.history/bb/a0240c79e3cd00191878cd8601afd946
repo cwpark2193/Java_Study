@@ -1,5 +1,0 @@
-package Q17Test;
-
-public interface Movable {
-
-}

@@ -1,6 +1,0 @@
-package chapter14.tricatch;
-
-public class BadIndex {
-	prublic static final int SIZE = 10;
-	public static void mai
-}

@@ -1,8 +1,0 @@
-package °´Ã¼ÁöÇâ14;
-
-public class Q2{
-    public static void main(String [] args) {
-    	String[] strs = new String[3];
-    	System.out.println(strs[0].length());
-    }
-}

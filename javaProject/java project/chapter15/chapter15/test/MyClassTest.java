@@ -14,8 +14,8 @@ public class MyClassTest {
 		int returnValue3=mcArray[0].compareTo(mcArray[2]);
 		match(returnValue3);
 		
-		MyClass largeObject = MyMethod.getMax(mcArray);
-		System.out.println(largeObject + "이 가장 큰 객체입니다.");
+		MyClass largeT = MyMethod.getMax(mcArray);
+		System.out.println(largeT + "이 가장 큰 객체입니다.");
 
 	}
 	public static void match(int returnValue) {

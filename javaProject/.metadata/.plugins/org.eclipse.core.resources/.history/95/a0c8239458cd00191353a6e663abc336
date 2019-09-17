@@ -1,8 +1,0 @@
-package Q21;
-
-public class Shape {
-	private String color;
-	public void calcArea();
-	
-
-}
