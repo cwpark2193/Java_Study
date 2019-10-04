@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="apLogin" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.change_test.LoginController">
+   <children>
+      <Label id="welcome-text" layoutX="61.0" layoutY="14.0" style="-fx-font-size: 25;" text="아이디와 비밀번호를 입력하세요" />
+      <Label layoutX="119.0" layoutY="124.0" text="아이디" />
+      <Label layoutX="119.0" layoutY="165.0" text="패스워드" />
+      <Button fx:id="btnMain" layoutX="207.0" layoutY="62.0" mnemonicParsing="false" text="메인화면" />
+      <TextField fx:id="tfID" layoutX="197.0" layoutY="120.0" />
+      <PasswordField fx:id="pfPass" layoutX="197.0" layoutY="161.0" />
+      <Button fx:id="btnCheck" layoutX="142.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleButtonCheck" text="로그인" />
+      <Button fx:id="btnClear" layoutX="271.0" layoutY="219.0" mnemonicParsing="false" onAction="#handleButtonClear" text="취소" />
+   </children>
+</AnchorPane>

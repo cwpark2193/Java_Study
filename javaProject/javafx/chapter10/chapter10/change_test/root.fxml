@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.StackPane?>
+
+<StackPane prefHeight="350.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.change_test.RootController">
+   <children>
+      <AnchorPane prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #EAEAEA;">
+         <children>
+            <Label layoutX="196.0" layoutY="30.0" style="-fx-font-size: 25;" text="메인 화면" />
+            <Button fx:id="btnGrade" layoutX="164.0" layoutY="77.0" mnemonicParsing="false" text="점수 화면" />
+            <Button fx:id="btnLogins" layoutX="270.0" layoutY="77.0" mnemonicParsing="false" text="로그인 화면" />
+            <ImageView fitHeight="177.0" fitWidth="176.0" layoutX="182.0" layoutY="128.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@images/bean2.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</StackPane>

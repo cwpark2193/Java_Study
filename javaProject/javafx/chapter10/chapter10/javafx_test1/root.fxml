@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane prefHeight="300.0" prefWidth="500.0" xmlns:fx="http://javafx.com/fxml" fx:controller="chapter10.javafx_test1.RootController">
+   <center>
+      <Label fx:id="lblText" text="JAVAFX" BorderPane.alignment="CENTER">
+         <font>
+            <Font />
+         </font>
+      </Label>
+   </center>
+   <bottom>
+      <Slider fx:id="sldSize" BorderPane.alignment="CENTER" />
+   </bottom>
+</BorderPane>

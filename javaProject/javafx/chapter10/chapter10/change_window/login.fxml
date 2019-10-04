@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane fx:id="apRoot" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: #FFFFFF;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.change_window.LoginController">
+   <children>
+      <Label layoutX="101.0" layoutY="37.0" style="-fx-font-size: 20;" text="아이디와 비밀번호를 입력하세요." />
+      <Button fx:id="btnMain" layoutX="226.0" layoutY="75.0" mnemonicParsing="false" text="메인" />
+      <ImageView fitHeight="192.0" fitWidth="198.0" layoutX="151.0" layoutY="144.0" pickOnBounds="true">
+         <image>
+            <Image url="@image/pinoccheo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

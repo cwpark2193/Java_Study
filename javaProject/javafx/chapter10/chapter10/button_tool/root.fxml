@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="150.0" prefWidth="420.0" xmlns:fx="http://javafx.com/fxml" fx:controller="chapter10.button_tool.RootController">
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+   <children>
+      <Button fx:id="btnExit" layoutX="198.0" layoutY="109.0" onAction="#handlerButtonExitAction">
+         <graphic>
+            <ImageView fitHeight="30.0" fitWidth="30.0">
+               <image>
+                  <Image url="@Images/exit.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <CheckBox fx:id="chkGlasses" layoutX="14.0" layoutY="26.0" text="안경" onAction="#handlerCheckBoxAction"/>
+      <CheckBox fx:id="chkHat" layoutX="14.0" layoutY="67.0" text="모자" onAction="#handlerCheckBoxAction"/>
+      <ImageView fx:id="imgCheck" fitHeight="100.0" fitWidth="100.0" layoutX="84.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/geek.gif" />
+         </image>
+      </ImageView>
+      <Separator layoutX="190.0" layoutY="10.0" orientation="VERTICAL" prefHeight="100.0" prefWidth="17.0" />
+      <RadioButton fx:id="rdoBubble" layoutX="210.0" layoutY="14.0" text="bubbleChart" userData="bubbleChart" onAction="#handlerRadioButtonAction">
+	      <toggleGroup>
+	         <ToggleGroup fx:id="Group" />
+	      </toggleGroup></RadioButton>
+      <RadioButton fx:id="rdoBar" layoutX="210.0" layoutY="50.0" text="barChart" toggleGroup="$Group" userData="barChart" onAction="#handlerRadioButtonAction"/>
+      <RadioButton fx:id="rdoArea" layoutX="209.0" layoutY="84.0" text="areaChart" toggleGroup="$Group" userData="areaChart" onAction="#handlerRadioButtonAction"/>
+      <ImageView fx:id="imgChart" fitHeight="100.0" fitWidth="100.0" layoutX="331.0" layoutY="10.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@Images/areaChart.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

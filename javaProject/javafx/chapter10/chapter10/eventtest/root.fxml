@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="100.0" prefWidth="300.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="chapter10.eventtest.RootController">
+   <children>
+      <Label fx:id="lb" layoutX="80.0" layoutY="24.0" text="여기에 글을 올려주세요" textFill="RED">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <Button fx:id="button1" layoutX="11.0" layoutY="58.0" mnemonicParsing="false" text="안녕못함" />
+      <Button fx:id="button2" layoutX="113.0" layoutY="58.0" mnemonicParsing="false" text="어서가" />
+      <Button fx:id="button3" layoutX="201.0" layoutY="58.0" mnemonicParsing="false" onAction="#handlerButton3Action" text="스트레스 만땅" />
+   </children>
+   <padding>
+      <Insets right="10.0" />
+   </padding>
+</AnchorPane>

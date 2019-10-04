@@ -1,0 +1,20 @@
+Label{
+	-fx-background-color: #240B3B;
+	-fx-text-fill: #F8E0E0;
+	-fx-font-size: 18;
+	-fx-padding: 5
+}
+
+Label:hover{
+	-fx-background-color: #FF0000;
+	-fx-text-fill: #F7FE2E;
+	-fx-font-size: 24;
+	-fx-padding: 5;
+}
+
+Label:pressed{
+	-fx-background-color: #2E2EFE;
+	-fx-text-fill: #82FA58;
+	-fx-font-size: 13;
+	-fx-padding: 10;
+}

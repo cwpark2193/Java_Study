@@ -1,0 +1,29 @@
+.root{
+	-fx-background-image: url("image/background.jpg");
+}
+
+Label{
+	-fx-font-size : 12px;
+	-fx-font-weight: bold;
+	-fx-text-fill: #F7FE2E;
+}
+
+#welcome-text{
+	-fx-font-size : 35px;
+	-fx-font-family: "Arial Black";
+	-fx-text-fill: linear-gradient(to bottom, darkgray, lightgray);
+	-fx-effect: innershadow(three-pass-box, rgba(0,0,0,0.7),3,0,2,2.1);
+}
+.button{
+	-fx-text-fill: white;
+	-fx-font-family: "Arial Narrow";
+	-fx-font-weight: bold;
+	-fx-background-color: linear-gradient(#FF00FF,#00FF00); 
+	-fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.6),10,0,2,2);
+}
+.button:hover{
+	-fx-background-color: linear-gradient(#A9F5F2,#FF0040);
+}
+.button:pressed{
+	-fx-background-color: linear-gradient(#DF01D7,#FF8000);
+}

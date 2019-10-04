@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="apCustom" prefHeight="350.0" prefWidth="500.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="chapter10.change_test.CustomController">
+   <children>
+      <Label layoutX="79.0" layoutY="98.0" text="국어" />
+      <Label layoutX="79.0" layoutY="141.0" text="영어" />
+      <Label layoutX="79.0" layoutY="183.0" text="수학" />
+      <Label layoutX="79.0" layoutY="230.0" text="총점" />
+      <Label layoutX="79.0" layoutY="277.0" text="평균" />
+      <TextField fx:id="tfKor" layoutX="130.0" layoutY="93.0" />
+      <TextField fx:id="tfEng" layoutX="130.0" layoutY="136.0" />
+      <TextField fx:id="tfMath" layoutX="130.0" layoutY="178.0" />
+      <TextField fx:id="tfTotal" layoutX="130.0" layoutY="225.0" />
+      <TextField fx:id="tfAver" layoutX="130.0" layoutY="272.0" />
+      <Button fx:id="btnTotal" layoutX="323.0" layoutY="93.0" mnemonicParsing="false" onAction="#handleButtonTotal" text="총점" />
+      <Button fx:id="btnAver" layoutX="323.0" layoutY="136.0" mnemonicParsing="false" onAction="#handleButtonAverage" text="평균" />
+      <Button fx:id="btnClear" layoutX="323.0" layoutY="183.0" mnemonicParsing="false" onAction="#handleButtonClear" text="초기화" />
+      <Button fx:id="btnMain" layoutX="169.0" layoutY="56.0" mnemonicParsing="false" text="메인화면" />
+      <Label layoutX="159.0" layoutY="14.0" style="-fx-font-size: 25;" text="시험점수" />
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</AnchorPane>
